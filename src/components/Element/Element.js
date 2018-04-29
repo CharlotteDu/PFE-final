@@ -20,20 +20,27 @@ export default class Element extends Component {
 		}
 
 		if (this.props.changeMargin === true) {
-			var _this = this;
-			var callback = function() {
+            var _this = this;
+            var ct = 30;
+            
+			var observer = new MutationObserver(function() {
+                if (ct <= 0) { 
+                    observer.disconnect();
+                }  
 				var element = document.getElementById(_this.props.name);
 				var slide = document.querySelector('.Board__slide');
 
 				element.style.marginLeft = ((slide.offsetWidth / slide.offsetHeight
-					- element.offsetWidth / element.offsetHeight) * 100) + "%";
-			};
-			var observer = new MutationObserver(callback);
+                    - element.offsetWidth / element.offsetHeight) * 100) + "%";
+				ct--;
+			});
+
 			observer.observe(document, {childList: true,
 				attributes: true,
 				characterData: true,
 				subtree: true,
-			});
+            });
+          
 
 			window.addEventListener('resize', function() {
 				var element = document.getElementById(_this.props.name);
