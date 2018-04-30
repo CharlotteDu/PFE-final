@@ -305,68 +305,86 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_7} positionBottom="25%"></Edito>
-                    <Edito content={this.props.datas.text[3].zone_7} positionTop="30%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                     <Element name="FOND9.png" positionLeft="15%" index="p1" changeMargin={true} ></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_8} positionBottom="20%"></Edito>
-                </div>
-                 <div className="Board__slide white_blue">
-                    <Video id="k6nQH9clutLjhlqxEZX" maxHeight="800" ratio="0.561"></Video>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_9} positionBottom="10%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
-                    <Edito content={this.props.datas.text[3].zone_10} positionBottom="30%"></Edito>
+                <Edito content={this.props.datas.text[3].zone_10} positionTop="30%"></Edito>
+                <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_11} positionBottom="10%"></Edito>
-                    <Edito content={this.props.datas.text[3].zone_11bis} positionBottom="40%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
-                    <Edito content={this.props.datas.text[3].zone_12} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_12} positionBottom="10%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
+                </div>
+                <div className="Board__slide Board__slide--bottom white_blue">
+                    <Edito content={this.props.datas.text[3].zone_12bis} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_13} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_14} positionBottom="20%"></Edito>
-                    <Edito content={this.props.datas.text[3].zone_11bis} positionBottom="40%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_15} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_16} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_17} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_18} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_19} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_20} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_21} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_22} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_23} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_24} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_25} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
                 </div>
+         
          
                 {/* CHAP04 - Conclusion */}
 
