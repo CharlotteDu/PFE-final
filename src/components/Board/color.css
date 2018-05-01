@@ -1,11 +1,14 @@
 .white_blue {
-  background-image: linear-gradient(#56aa43, #80a225); }
+  background-image: linear-gradient(#f7d205, #fcee08); }
 
 .red {
-  background-image: linear-gradient(#f04545, #c22f32); }
+  background-image: linear-gradient(#56aa43, #80a225); }
 
 .only_blue {
-  background-image: linear-gradient(#80a225, #80a225); }
+  background-image: linear-gradient(#56aa43, #80a225); }
+
+.sepia {
+  background-image: linear-gradient(#6ebfed, #6ebfed); }
 
 .white {
   color: white; }
