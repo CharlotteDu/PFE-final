@@ -293,6 +293,7 @@ export default class Board extends Component {
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_7} positionBottom="25%"></Edito>
                     <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
+                    <Element name="Main chrono.png" positionLeft="30%" index="m1"></Element>
                     <Element name="FOND9.png" positionLeft="15%" index="p1" changeMargin={true} ></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
@@ -323,6 +324,7 @@ export default class Board extends Component {
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Edito content={this.props.datas.text[3].zone_13} positionBottom="20%"></Edito>
                     <Edito content={this.props.datas.text[3].zone_5} positionTop="30%"></Edito>
+                    <Element name="Main carton rouge.png" positionLeft="30%" index="m1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom white_blue">
                     <Element name="CHAP3-INFOG CARTONS.png" positionLeft="0%"></Element>
