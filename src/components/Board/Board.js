@@ -58,7 +58,7 @@ export default class Board extends Component {
             <div id="board" className="Board" style={{marginTop:this.state.boardTop, left:0,  minWidth:this.state.slideWidth, height: this.state.boardHeight}}>
                 
                 
-                {/* CHAP 0 - Introduction }
+                {/* CHAP 0 - Introduction*/ }
 
                 <div className="Board__slide red Board__slide--top">
                     <Edito content={this.props.datas.text[0].zone_1} positionTop="15%"></Edito> 
@@ -149,7 +149,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[1].zone_13}  positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--top sepia"> 
-                    <Element name="IMG Portrait Stinat.png" positionLeft="5%"></Element>
+                    <Element name="IMG Portrait Stinat.png" positionLeft="0%"></Element>
                 </div>
                 <div className="Board__slide Board__slide--top sepia"> 
                     <Edito content={this.props.datas.text[1].zone_14}  positionTop="36%"></Edito>
@@ -157,6 +157,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide Board__slide--top sepia"> 
                     <Edito content={this.props.datas.text[1].zone_16}  positionTop="20%"></Edito>
+                    <Element name="Joueur.png" index="m1" positionLeft="35%"></Element> 
                 </div>
                  
                 {/* CHAP 2 */}
