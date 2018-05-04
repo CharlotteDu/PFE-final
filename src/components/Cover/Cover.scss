@@ -12,7 +12,7 @@
     transition:left $effect-slide-duration $effect-slide;
 
     @media (orientation: landscape) and (min-width: $bp-phablet) {
-        background-image:url('./img/COVER-DESK.jpg');
+        background-image:url('./img/COVER-DESK2.jpg');
     }
 
     body.show-cover & {

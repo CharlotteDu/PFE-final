@@ -278,7 +278,7 @@ export default class Board extends Component {
                 </div> 
                 <div className="Board__slide white_blue">
                 <Element name="IMG Rodolphe joueurs.png" positionLeft="10%"></Element>
-                <Element name="AP-IMG Rodolphe joueurs.png" positionLeft="40%" index="p1"></Element>
+                <Element name="AP-IMG Rodolphe joueurs.png" positionLeft="23%"></Element>
                 </div>
                 <div className="Board__slide Board__slide--top white_blue">
                     <Edito content={this.props.datas.text[3].zone_3} positionTop="35%"></Edito>
