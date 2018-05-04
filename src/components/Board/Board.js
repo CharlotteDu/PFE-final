@@ -84,6 +84,7 @@ export default class Board extends Component {
                 </div>
 
                 <div className="Board__slide Board__slide--bottom sepia">
+                    
                     <Edito content={this.props.datas.text[1].zone_1} positionBottom="8%"></Edito> 
                     
                 </div>
