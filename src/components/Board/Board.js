@@ -20,7 +20,7 @@ function getSizes() {
     if (width / height < config.ratio.width / config.ratio.height) {
         boardHeight = config.ratio.height * width / config.ratio.width;
         boardTop = (document.documentElement.clientHeight - boardHeight) / 2;
-	}
+    }
 
     return {
         slideWidth: slideWidth,
@@ -35,9 +35,9 @@ export default class Board extends Component {
         super(props);
 
         this.state = {
-            slideWidth:getSizes().slideWidth,
-            boardHeight:getSizes().boardHeight,
-            boardTop:getSizes().boardTop
+            slideWidth: getSizes().slideWidth,
+            boardHeight: getSizes().boardHeight,
+            boardTop: getSizes().boardTop
         };
     }
 
@@ -45,9 +45,9 @@ export default class Board extends Component {
         var _this = this;
         window.addEventListener('resize', function () {
             _this.setState({
-                slideWidth:getSizes().slideWidth,
-                boardHeight:getSizes().boardHeight,
-                boardTop:getSizes().boardTop
+                slideWidth: getSizes().slideWidth,
+                boardHeight: getSizes().boardHeight,
+                boardTop: getSizes().boardTop
             });
         });
     }
@@ -55,10 +55,10 @@ export default class Board extends Component {
     render() {
 
         return (
-            <div id="board" className="Board" style={{marginTop:this.state.boardTop, left:0,  minWidth:this.state.slideWidth, height: this.state.boardHeight}}>
-                
-                
-                {/* CHAP 0 - Introduction*/ }
+            <div id="board" className="Board" style={{ marginTop: this.state.boardTop, left: 0, minWidth: this.state.slideWidth, height: this.state.boardHeight }}>
+
+
+                {/* CHAP 0 - Introduction}
 
                 <div className="Board__slide red Board__slide--top">
                     <Edito content={this.props.datas.text[0].zone_1} positionTop="15%"></Edito> 
@@ -78,7 +78,7 @@ export default class Board extends Component {
                   
                 </div>
 
-                {/* CHAP 1*/ }
+                {/* CHAP 1}
                 <div className="Board__slide red">
                     <Skew position="left" name="Chap1 cover2.png" bg="Chap1 cover2.png" change={true} ></Skew>
                 </div>
@@ -161,7 +161,7 @@ export default class Board extends Component {
                     <Element name="Joueur.png" index="m1" positionLeft="35%"></Element> 
                 </div>
                  
-                {/* CHAP 2 */}
+                {/* CHAP 2 }
 
                 <div className="Board__slide sepia">
                     <Skew position="left" name="Chap2 cover.png" bg="Chap2 cover.png"></Skew>
@@ -257,7 +257,7 @@ export default class Board extends Component {
                  </div>
                 
                 
-                {/* CHAP 3 */}
+                {/* CHAP 3 }
 
                 <div className="Board__slide red">
                     <Skew position="left" name="Chap3 cover.png" bg="Chap3 cover.png"></Skew>
@@ -401,11 +401,11 @@ export default class Board extends Component {
                 <div className="Board__slide only_blue"></div>
                 <div className="Board__slide Board__slide--top white only_blue">
                     <Edito content={this.props.datas.text[4].zone_1} positionTop="31%"></Edito>
-                </div>   
+                </div>
                 <div className="Board__slide Board__slide--top white only_blue">
                     <Element name="IMG Stinat vestiaires.png" positionLeft="-15%"></Element>
                     <Element name="AP-IMG Stinat vestiaires.png" positionLeft="20%" index="m1"></Element>
-                </div>   
+                </div>
                 <div className="Board__slide Board__slide--top white only_blue">
                     <Edito content={this.props.datas.text[4].zone_2} positionTop="45%"></Edito>
                 </div>
@@ -422,7 +422,29 @@ export default class Board extends Component {
                     <Skew position="left" bg="OURS.png" ></Skew>
                 </div>
                 <div className="Board__slide only_blue black">
-                    <Masthead />
+                    <div className="Masthead">
+                        <div className="Masthead__item">
+                            <span className="Masthead__label white">Conçu, écrit et réalisé par</span>
+                            <span className="Masthead__details">Charlotte Durand<a href="//twitter.com/sciencespoEDJ" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                        </div>
+                        <div className="Masthead__item">
+                            <span className="Masthead__label white">Développeur</span>
+                            <span className="Masthead__details">Raphaël Dardeau et Charlotte Durand<a href="//twitter.com/iron_dev" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                        </div>
+                        <div className="Masthead__item">
+                            <span className="Masthead__label"></span>
+                            <span className="Masthead__details"></span>
+                        </div>
+                        <div className="Masthead__item Masthead__item--full">
+                            <span className="Masthead__details"><span className="Masthead__label white">Photos :</span> Charlotte Durand ; collections personnelles de Jean-Marc Rodolphe</span>
+                        </div>
+                        <div className="Masthead__item Masthead__item--full">
+                            <span className="Masthead__details"><span className="Masthead__label white">Vidéos :</span> Charlotte Durand</span>
+                        </div>
+                        <div className="Masthead__item Masthead__item--full">
+                            <span className="Masthead__details"><span className="Masthead__label white">Remerciements :</span> Pierre-Marie Airiau, Romain Scotto, Léa Sanchez, Lucas Wicky</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
