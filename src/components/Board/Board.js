@@ -58,7 +58,7 @@ export default class Board extends Component {
             <div id="board" className="Board" style={{ marginTop: this.state.boardTop, left: 0, minWidth: this.state.slideWidth, height: this.state.boardHeight }}>
 
 
-                {/* CHAP 0 - Introduction}
+                {/* CHAP 0 - Introduction*/}
 
                 <div className="Board__slide red Board__slide--top">
                     <Edito content={this.props.datas.text[0].zone_1} positionTop="15%"></Edito> 
@@ -78,7 +78,7 @@ export default class Board extends Component {
                   
                 </div>
 
-                {/* CHAP 1}
+                {/* CHAP 1*/}
                 <div className="Board__slide red">
                     <Skew position="left" name="Chap1 cover2.png" bg="Chap1 cover2.png" change={true} ></Skew>
                 </div>
@@ -161,7 +161,7 @@ export default class Board extends Component {
                     <Element name="Joueur.png" index="m1" positionLeft="35%"></Element> 
                 </div>
                  
-                {/* CHAP 2 }
+                {/* CHAP 2*/ }
 
                 <div className="Board__slide sepia">
                     <Skew position="left" name="Chap2 cover.png" bg="Chap2 cover.png"></Skew>
@@ -257,7 +257,7 @@ export default class Board extends Component {
                  </div>
                 
                 
-                {/* CHAP 3 }
+                {/* CHAP 3*/ }
 
                 <div className="Board__slide red">
                     <Skew position="left" name="Chap3 cover.png" bg="Chap3 cover.png"></Skew>
@@ -424,11 +424,11 @@ export default class Board extends Component {
                 <div className="Board__slide only_blue black">
                     <div className="Masthead">
                         <div className="Masthead__item">
-                            <span className="Masthead__label white">Conçu, écrit et réalisé par</span>
-                            <span className="Masthead__details">Charlotte Durand<a href="//twitter.com/sciencespoEDJ" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                            <span className="Masthead__label white"><b>Conçu, écrit et réalisé par</b></span>
+                            <span className="Masthead__details">Charlotte Durand<a href="https://twitter.com/chashimid?lang=fr" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                         </div>
                         <div className="Masthead__item">
-                            <span className="Masthead__label white">Développeur</span>
+                            <span className="Masthead__label white"><b>Développeur</b></span>
                             <span className="Masthead__details">Raphaël Dardeau et Charlotte Durand<a href="//twitter.com/iron_dev" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                         </div>
                         <div className="Masthead__item">
@@ -436,13 +436,13 @@ export default class Board extends Component {
                             <span className="Masthead__details"></span>
                         </div>
                         <div className="Masthead__item Masthead__item--full">
-                            <span className="Masthead__details"><span className="Masthead__label white">Photos :</span> Charlotte Durand ; collections personnelles de Jean-Marc Rodolphe</span>
+                            <span className="Masthead__details"><span className="Masthead__label white"><b>Photos :</b></span> Charlotte Durand, collections personnelles de Jean-Marc Rodolphe, freepik</span>
                         </div>
                         <div className="Masthead__item Masthead__item--full">
-                            <span className="Masthead__details"><span className="Masthead__label white">Vidéos :</span> Charlotte Durand</span>
+                            <span className="Masthead__details"><span className="Masthead__label white"><b>Vidéos :</b></span> Charlotte Durand</span>
                         </div>
                         <div className="Masthead__item Masthead__item--full">
-                            <span className="Masthead__details"><span className="Masthead__label white">Remerciements :</span> Pierre-Marie Airiau, Romain Scotto, Léa Sanchez, Lucas Wicky</span>
+                            <span className="Masthead__details"><span className="Masthead__label white"><b>Remerciements </b>:</span> Pierre-Marie Airiau, Romain Scotto, Léa Sanchez, Lucas Wicky</span>
                         </div>
                     </div>
                 </div>
