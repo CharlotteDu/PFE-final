@@ -147,10 +147,10 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide Board__slide--top sepia"> 
                     <Edito content={this.props.datas.text[1].zone_13}  positionTop="10%"></Edito>
-                    <Element name="Chap1 cita2.png" index="m1" positionLeft="25%"></Element>
+                    <Element name="Chap1 cita2.png" index="m1" positionLeft="20%"></Element>
                 </div>
                 <div className="Board__slide Board__slide--top sepia"> 
-                    <Element name="IMG Portrait Stinat.png" positionLeft="0%"></Element>
+                    <Element name="IMG Portrait Stinat.png" positionLeft="-15%"></Element>
                 </div>
                 <div className="Board__slide Board__slide--top sepia"> 
                     <Edito content={this.props.datas.text[1].zone_14}  positionTop="36%"></Edito>
@@ -161,7 +161,7 @@ export default class Board extends Component {
                     <Element name="Joueur.png" index="m1" positionLeft="35%"></Element> 
                 </div>
                  
-                {/* CHAP 2*/ }
+                {/* CHAP 2*/}
 
                 <div className="Board__slide sepia">
                     <Skew position="left" name="Chap2 cover.png" bg="Chap2 cover.png"></Skew>
@@ -249,15 +249,15 @@ export default class Board extends Component {
                 </div>
                  <div className="Board__slide Board__slide--top red white">
                     <Edito content={this.props.datas.text[2].zone_15} positionTop="38%"></Edito>
-                    <Element name="Medaille plein.png" positionLeft="35%"></Element>
+                    <Element name="Medaille plein.png" positionLeft="25%"></Element>
                  </div>
                  <div className="Board__slide Board__slide--top red white">
                     <Edito content={this.props.datas.text[2].zone_16} positionTop="10%"></Edito>
-                    <Element name="Chap2 cita5.png" index="m1" positionLeft="40%"></Element>
+                    <Element name="Chap2 cita5.png" positionLeft="10%"></Element>
                  </div>
                 
                 
-                {/* CHAP 3*/ }
+                {/* CHAP 3*/}
 
                 <div className="Board__slide red">
                     <Skew position="left" name="Chap3 cover.png" bg="Chap3 cover.png"></Skew>
@@ -400,22 +400,20 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide only_blue"></div>
                 <div className="Board__slide Board__slide--top white only_blue">
-                    <Edito content={this.props.datas.text[4].zone_1} positionTop="31%"></Edito>
-                </div>
-                <div className="Board__slide Board__slide--top white only_blue">
-                    <Element name="IMG Stinat vestiaires.png" positionLeft="-15%"></Element>
-                    <Element name="AP-IMG Stinat vestiaires.png" positionLeft="20%" index="m1"></Element>
-                </div>
-                <div className="Board__slide Board__slide--top white only_blue">
-                    <Edito content={this.props.datas.text[4].zone_2} positionTop="45%"></Edito>
-                </div>
-                <div className="Board__slide Board__slide--top white only_blue">
-                    <Edito content={this.props.datas.text[4].zone_3} positionTop="27%"></Edito>
+                    <Edito content={this.props.datas.text[4].zone_1} positionTop="21%"></Edito>
                     <Element name="Chrono blanc2.png" positionLeft="0%" index="p1"></Element>
                 </div>
-                <div className="Board__slide Board__slide--bottom only_blue white">
-                    <Edito content={this.props.datas.text[4].zone_4} positionBottom="10%"></Edito>
-                    <Edito content={this.props.datas.text[4].zone_4} positionBottom="10%"></Edito>
+                
+                <div className="Board__slide Board__slide--top white only_blue">
+                    <Edito content={this.props.datas.text[4].zone_2} positionTop="30%"></Edito>
+                </div>
+                <div className="Board__slide Board__slide--top white only_blue">   
+                    <Element name="IMG Stinat vestiaires.png" positionLeft="-25%"></Element>
+                    <Element name="AP-IMG Stinat vestiaires.png" positionLeft="20%" index="m1"></Element>
+                   
+                </div>
+                <div className="Board__slide Board__slide--top white only_blue">
+                    <Edito content={this.props.datas.text[4].zone_3} positionTop="57%"></Edito>
                     <Element name="IMG Stinat vestiaires2.png" positionLeft="0%" index="m1"></Element>
                 </div>
                 <div className="Board__slide only_blue">
@@ -428,21 +426,18 @@ export default class Board extends Component {
                             <span className="Masthead__details">Charlotte Durand<a href="https://twitter.com/chashimid?lang=fr" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                         </div>
                         <div className="Masthead__item">
-                            <span className="Masthead__label white"><b>Développeur</b></span>
-                            <span className="Masthead__details">Raphaël Dardeau et Charlotte Durand<a href="//twitter.com/iron_dev" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                            <span className="Masthead__label white"><b>Développeurs</b></span>
+                            <span className="Masthead__details">L'Equipe Explore et Charlotte Durand<a href="https://twitter.com/lequipeEXPLORE" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                         </div>
                         <div className="Masthead__item">
                             <span className="Masthead__label"></span>
                             <span className="Masthead__details"></span>
                         </div>
                         <div className="Masthead__item Masthead__item--full">
-                            <span className="Masthead__details"><span className="Masthead__label white"><b>Photos :</b></span> Charlotte Durand, collections personnelles de Jean-Marc Rodolphe, freepik</span>
+                            <span className="Masthead__details"><span className="Masthead__label white"><b>Photos :</b></span> Charlotte Durand, collections personnelles <br/> de Jean-Marc Rodolphe et Dominique Calio, Freepik<br/> <br/></span>
                         </div>
                         <div className="Masthead__item Masthead__item--full">
-                            <span className="Masthead__details"><span className="Masthead__label white"><b>Vidéos :</b></span> Charlotte Durand</span>
-                        </div>
-                        <div className="Masthead__item Masthead__item--full">
-                            <span className="Masthead__details"><span className="Masthead__label white"><b>Remerciements </b>:</span> Pierre-Marie Airiau, Romain Scotto, Léa Sanchez, Lucas Wicky</span>
+                            <span className="Masthead__details"><span className="Masthead__label white"><b>Remerciements </b>:</span> Pierre-Marie Airiau, Jules Delpla, Romain Scotto, <br/> Léa Sanchez, Lucas Wicky</span>
                         </div>
                     </div>
                 </div>
